@@ -1,0 +1,36 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-around;
+    .nav_buttons{
+        display: flex;
+        a{
+            color: white;
+            font-size: 18px;
+            font-family: "CocoSharp";
+            font-weight: 700;
+            margin: 0 13px;
+        }
+    }
+    .nav_logo{
+        height: 30px;
+        width: 28px;
+        display: none;
+    }
+    .nav_menu{
+        display: none;
+        color: white;
+    }
+    .nav_hotline{
+        border: 0.5px white solid;
+        padding: 10px 15px;
+        border-radius: 25px;
+        color: white;
+        font-family: "sans-serif";
+        i{
+            color: orangered;
+        }
+    }
+}

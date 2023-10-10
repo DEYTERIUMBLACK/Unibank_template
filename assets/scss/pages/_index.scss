@@ -1,0 +1,114 @@
+.heading_txt{
+    
+    font-family: "CocoSharp";
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    padding: 20px;
+}
+#hero{
+    background-color: #1A1A1A;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    @media only screen and (max-width:992px){
+        flex-direction: column;
+        text-align: center;
+        .hero_side_foot{
+
+            justify-content: space-around;
+        }
+    }
+    justify-content: space-around;
+    color: white;
+    .hero_card{
+        img{
+            height: 178px;
+            width: 280px;
+            margin: auto;
+        }
+    }
+    .hero_side{
+        .hero_side_header{
+             h2{
+                font-family: 'CocoSharp';
+                font-weight: 800;
+                font-size: 24px;
+            }
+            button{
+                justify-self: end;
+            }
+        }
+        p{
+            font-family: 'CocoSharp';
+            font-weight: 400;
+            font-size: 14px;
+        }
+        .hero_side_foot{
+            display: flex;
+            .hero_side_foots{
+                width: 182px;
+                height: 65.5px;
+                display: flex;
+                align-items: center;
+                i{
+                    font-size: 35px;
+                    color: orangered;
+                }
+                span{
+                    margin:14px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+
+            }
+        }        
+    }
+}
+#debetcards{
+    @media only screen and (max-width:992px){
+        .debetcards_box{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+    .debetcards_box{
+        display: flex;
+        gap: 20px;
+        margin: 20px;
+        .debetcards_box_card{
+            background-color: #1A1A1A;
+            border-radius: 15px;
+            padding: 40px;
+            img{
+                border-radius: 15px;
+                overflow: hidden;
+                height: 200px;
+                width: 315px;
+            }
+            h2{
+                font-family: 'CocoSharp';
+                font-size: 24px;
+                font-weight: 800;
+                color: white;
+            }
+            p{
+                font-family: 'CocoSharp';
+                font-size: 14px;
+                font-weight: 400px;
+                color: white;
+            }
+            button{
+                font-family: 'CocoSharp';
+                font-size: 14px;
+                font-weight: 600;
+                color: white;
+                background-color: orangered;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 15px;
+            }
+        }   
+    }
+}
